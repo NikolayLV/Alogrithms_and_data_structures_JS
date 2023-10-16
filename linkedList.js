@@ -1,7 +1,7 @@
 class LinkedList {
     constructor() {
-        this.size = 0
-        this.root = null
+        this.size = 0;
+        this.root = null;
     }
 
     add(value) {
@@ -10,42 +10,42 @@ class LinkedList {
             this.size += 1;
             return true;
         }
-        let node = this.root
+        let node = this.root;
         while (node.next) {
-            node = node.next
+            node = node.next;
         }
-        let newNode = new Node(value)
-        node.next = newNode
-        this.size += 1
+        let newNode = new Node(value);
+        node.next = newNode;
+        this.size += 1;
     }
 
     getSize() {
-        return this.size
+        return this.size;
     }
 
     print() {
-        let result = []
-        let node = this.root
+        let result = [];
+        let node = this.root;
         while (node) {
-            result.push(node.value)
-            node = node.next
+            result.push(node.value);
+            node = node.next;
         }
-        console.log(result);;
+        console.log(result);
     }
 }
 
 class Node {
     constructor(value) {
-        this.value = value
-        this.next = null
+        this.value = value;
+        this.next = null;
     }
 }
 
 const list = new LinkedList()
-list.add(5)
-list.add(3)
-list.add(2)
-list.add(5)
-list.add(7)
+list.add(5);
+list.add(3);
+list.add(2);
+list.add(5);
+list.add(7);
 
-list.print()
+list.print();
