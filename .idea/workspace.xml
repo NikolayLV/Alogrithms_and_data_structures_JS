@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4432150-d17d-4728-99c7-19b9401184e0" name="Changes" comment="JS changes.">
-      <change beforePath="$PROJECT_DIR$/linkedList.js" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList.js" afterDir="false" />
-    </list>
+    <list default="true" id="a4432150-d17d-4728-99c7-19b9401184e0" name="Changes" comment="JS changes." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +34,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697444257615</updated>
-      <workItem from="1697444258770" duration="155000" />
+      <workItem from="1697444258770" duration="416000" />
     </task>
     <task id="LOCAL-00001" summary="JS changes.">
       <created>1697444300099</created>
@@ -59,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697444376384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JS changes.">
+      <created>1697444419954</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697444419954</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
