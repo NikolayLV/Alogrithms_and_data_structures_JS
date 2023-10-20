@@ -41,7 +41,7 @@ class Node {
     }
 }
 
-const list = new LinkedList();
+const list = new LinkedList()
 list.add(5);
 list.add(3);
 list.add(2);
